@@ -14,7 +14,6 @@ console.log(text2)
 let number = 10
 
 while(number >= 1){
-
     console.log(number)
     number --
 }
@@ -33,6 +32,6 @@ for(let z = 1; z <= 100; z +=2){
 let text4 = "Loop do 0 a 100 usando os pares"
 console.log(text4)
 
-for(let y = 0; y <= 18; y +=3){
+for(let y = 0; y <= 100; y +=2){
     console.log(y)
 }

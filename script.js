@@ -8,15 +8,15 @@ console.log(x)
 
 //--------------02------------------//
 
-let text2 = "Loop do 1 até 10 usando While"
+let text2 = "Loop do 10 até 1 usando While"
 console.log(text2)
 
-let number = 1
+let number = 10
 
-while(number <= 10){
+while(number >= 1){
 
     console.log(number)
-    number ++
+    number --
 }
 
 //--------------03------------------//
@@ -33,6 +33,6 @@ for(let z = 1; z <= 100; z +=2){
 let text4 = "Loop do 0 a 100 usando os pares"
 console.log(text4)
 
-for(let y = 0; y <= 100; y +=2){
+for(let y = 0; y <= 18; y +=3){
     console.log(y)
 }
